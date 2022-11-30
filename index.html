@@ -36,9 +36,9 @@
 
         <div class="flex justify-around">
 
-          <a href="#" class="text-gray-200 text-2xl font-bold px-4"><i class="fa fa-folder"></i></a>
+          <a href="https://github.com/hjali7/QR-CODE-WB" class="text-gray-200 text-2xl font-bold px-4"><i class="fa fa-folder"></i></a>
 
-          <a href="#" class="text-gray-200 text-2xl font-bold px-4"><i class="fa fa-download"></i></a>
+          <a href="https://github.com/hjali7/QR-CODE-WB/archive/refs/heads/master.zip" download="" class="text-gray-200 text-2xl font-bold px-4"><i class="fa fa-download"></i></a>
 
         </div>
         
@@ -47,8 +47,105 @@
     </div>
     
   </header>
+
+  <main class="bg-gray-200">
+
+    <div class="container flex flex-col">
+
+      <div class="flex flex-col space-y-8 items-start m-auto py-8">
+
+        <h2 class="text-black text-3xl font-bold ">QRCode.js</h2>
+        <p class="text-black text-lg">QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 <br> Canvas and table tag in DOM. QRCode.js has no dependencies.</p>
+        
+      </div>
+
+    </div>
+
+    <div class="flex m-auto w-2/3 justify-evenly">
+
+      <div class="flex flex-col space-y-8 py-12">
+
+        <h2 class="text-black font-bold text-3xl">QR Code Generator</h2>
+
+        <p class="text-gray-500 text-md">QR Codes allow smartphone users to access your website<br>simply and quickly.
+
+          Enter your URL below to generate <br> a QR Code and download the</p>
+
+        <form class="flex flex-col w-full space-y-8">
+
+          <input type="url" name="" id="url" placeholder="paste url link" class="py-4 rounded-xl pl-2">
+
+          <select name="" id="" class="py-4 rounded-xl pl-2">
+
+            <option value="">100 * 100 </option>
+            <option value="">200 * 200 </option>
+            <option value="" selected >300 * 300 </option>
+            <option value="">400 * 400 </option>
+            <option value="">500 * 500 </option>
+
+          </select>
+          
+        </form>
+
+        <button class="rounded-full text-white bg-gray-600 hover:bg-red-600 py-2 px-4" id="btn">create your qrcode</button>
+
+      </div>
+
+ 
+      <div class="flex w-1/3">
+
+        <img src="./img/qr-code.svg" alt="">
+        
+      </div>
+
+    </div>
+
+    <!-- <div id="qrcode"></div> -->
+
+    <div class="w-3/4 flex flex-col space-y-6 m-auto  py-8 px-8 border shadow-xl  rounded-2xl ">
+
+      <h2 class="font-bold text-2xl border-b-2 border-dashed w-full border-red-700 pb-6">Browser Compatibility
+      </h2>
+
+      <p class="text-gray-400 text-md w-full">IE6~10, Chrome, Firefox, Safari, Opera, Mobile Safari, Android, Windows Mobile, ETC.
+         <a href="#" class="text-red-500 py-2 px-4 rounded-xl hover:bg-black hover:shadow-md hover:text-white mx-4"> READ MORE </a>
+      </p>
+      
+    </div>
+    <div class="w-3/4 flex flex-col space-y-6 m-auto  py-8 px-8 border shadow-xl  rounded-2xl ">
+
+      <h2 class="font-bold text-2xl border-b-2 border-dashed w-full border-red-700 pb-6">License
+      </h2>
+
+      <p class="text-gray-400 text-md w-full">MIT License
+         <a href="#" class="text-red-500 py-2 px-4 rounded-xl hover:bg-black hover:shadow-md hover:text-white mx-4"> READ MORE </a>
+      </p>
+      
+    </div>
+    <div class="w-3/4 flex flex-col space-y-6 m-auto  py-8 px-8 border shadow-xl  rounded-2xl ">
+
+      <h2 class="font-bold text-2xl border-b-2 border-dashed w-full border-red-700 pb-6">Contact
+      </h2>
+
+      <p class="text-gray-400 text-md w-full">twitter <a href="https://github.com/davidshimjs">@davidshimjs</a>
+         <a href="#" class="text-red-500 py-2 px-4 rounded-xl hover:bg-black hover:shadow-md hover:text-white mx-4"> READ MORE </a>
+      </p>
+      
+    </div>
+
+  </main>
+
+  <footer class="bg-black">
+
+    <div class="space-y-8 flex flex-col container mx-auto w-2/3 py-12">
+
+      <p class="text-white capitalize">qrcode.js maintained by <a href="https://github.com/davidshimjs" class="text-indigo-500"> davidshimjs</a> </p>
+      <p class="text-white capitalize">Published with <a href="https://pages.github.com/" class="text-indigo-500">GIt Hub Page</a></p>
+
+    </div>
+    
+  </footer>
   
-  <div id="qrcode"></div>
     
 </body>
 </html>
